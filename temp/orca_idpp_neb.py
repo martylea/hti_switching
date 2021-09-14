@@ -15,6 +15,6 @@ for i in ["%1d" % i for i in range(1,7)]:
               'end \n'
               '* xyzfile 0 1 start.xyz')
     inp.close()
-    os.system('python ~/subgen-2.py '+i+'-neb 1 orca501 4 m.lea')
+    os.system('python ~/subgen-2.py '+i+'-neb 1 orca501 48 m.lea')
     os.system('sbatch submit.sh')
     os.chdir('../..')
