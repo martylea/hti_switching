@@ -1,5 +1,5 @@
 34
-Lattice="0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0" Properties=species:S:1:pos:R:3:Z:I:1 pbc="F F F" optimized=T from=T ORCA-job=T Coordinates=T
+# 
 C       1.82236587      -1.63714032       0.03684695        6 
 C       2.29822310      -0.31164063      -0.01733348        6 
 C       1.37997566       0.75499113      -0.06339476        6 
