@@ -2,8 +2,8 @@ import os,shutil
 for i in ["%1d" % i for i in range(1,7)]:
     os.mkdir(i+'/NEB/ts-opt/')
     os.chdir(i+'/NEB/ts-opt/')
-    shutil.copy(i+'/NEB/neb_NEB-HEI_converged.xyz', './ts.xyz')   
-    inp = open(i+'/NEB/input.inp', 'w+')
+    shutil.copy('../neb_NEB-HEI_converged.xyz', './ts.xyz')   
+    inp = open('./input.inp', 'w+')
     inp.write('! B3LYP D3BJ def2-TZVP RIJCOSX \n'
               '! OptTS \n'
               '%pal nprocs 48 end \n'
